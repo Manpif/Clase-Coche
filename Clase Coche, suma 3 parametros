@@ -1,0 +1,34 @@
+//SUMA TRES PARAMETROS (PRIMERA PARTE)
+public class Main {
+    public static void main(String[] args) {
+        int param1 = 1;
+        int param2 = 2;
+        int param3 = 3;
+
+        var valor =  suma(param1, param2, param3);
+
+        System.out.println(valor);
+
+    }
+    public static int suma(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+
+
+// CLASE COCHE (SEGUNDA PARTE)
+public class Main {
+    public static void main(String[] args) {
+        Coche miCoche = new Coche();
+        miCoche.Sumarpuerta();
+        System.out.println(miCoche.puertas);
+
+    }
+}
+class Coche {
+    public int puertas = 4;
+
+    public void  Sumarpuerta() {
+        this.puertas++;
+    }
+}
